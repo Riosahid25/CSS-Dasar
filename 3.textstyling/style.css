@@ -1,0 +1,44 @@
+/*belejar mengenal text styling*/
+h1 {
+/*color memberikan warna pada tulisan-> berupa nama, hexadecimal#000,rgb(255,0,0)*/
+	color: red;
+	color: #4fec3f;
+	color: rgb(6,2,0);
+
+/*text-decoration mengatur dekorasi pada teks yg di coret atau underline berupa -> none,underline,overline,line-through*/
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: line-through;
+
+/*text-transform mengubah jenis huruf menjadi besar, kecil / kapital berupa -> none,lowercase,uppercase,capitalize*/
+text-transform: lowercase;
+text-transform: uppercase;
+text-transform: capitalize;
+}
+
+
+p {
+/*text-align mengatur format paragraf atau text berupa -> left right center justify*/
+text-align: left;
+text-align: right;
+text-align: center;
+text-align: justify;	
+
+/*text-indent memberi indentasi pada paragraf atau text berupa -> px,%*/
+text-indent: 20px;
+text-transform: capitalize;
+
+/*letter-spacing mengatur spasi antar huruf* berupa -> normal,px*/
+letter-spacing: 5px;
+
+/*word-spacing sepasi antar kata berupa -> normal,px*/
+word-spacing: 5px;
+}
+
+/*menghilangkan garis bawah pada link-> text-decoration*/
+a {text-decoration: none};
+
+
+
+
+

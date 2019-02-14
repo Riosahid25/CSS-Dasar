@@ -1,0 +1,37 @@
+body{
+	font-family: arial;
+}
+
+/*koma dibaca "dan"*/
+h1, h2{
+color: #fe1e23;	
+}
+
+/*spasi dibaca "mengambil tulisan yg mau diberiwarna"*/
+ul li a{
+	color: #34f870;
+	text-decoration: none;
+}
+
+ol li a {
+	color: #eb7425;
+	text-decoration: none;
+}
+
+/*mengubah 2 paragraf yg berbeda menggunakan class dan id*/
+#p1 {
+	color: #4f0c6b;
+}
+
+.p2{
+	color: #751616;
+}
+
+/*menggunakan element class lebih dari satu*/
+.cetak-tebal{
+	font-weight: bold;
+}
+/*atau model penulisannya seperti ini*/
+p.cetak-tebal{
+font-style: italic;
+}

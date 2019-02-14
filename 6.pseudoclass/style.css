@@ -1,0 +1,69 @@
+/*----pseudo cllas yg berhubungan dengan link------*/
+
+/*link = style default pada sebuah :link a(yg memiliki href)*/
+.hello:link{
+	color: #f8fb13;
+}
+/*:hover = style ketika kursor mpuse berada diatas sebuah link / element*/
+.hello:hover{
+	color: #4bec19;
+	font-family: arial;
+	font-size: 20px;
+}
+
+/*:active = style ketika link di klik (keadaank aktif*/
+.hello:active{
+	font-style: italic;
+}
+
+/*:visited = style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunkan browser yg sama)*/
+.hello:visited{
+	color: #aa10e3;
+}
+
+/*------pseudo class yg beruhubungan dengan posisi element---------*/
+
+/*:first-child = memiliki elemen pertama dari sebuah parent(elemen pembungkusan) */
+/*cara penulisan syntaxnya*/
+li:first-child a{
+	color: #b3f20a;
+}
+
+/*:last-child = memilih element terakhir dari sebuah parent (elemen pembungkusan*/
+/*cara penulisan syntaxnya*/
+li:last-child a{
+	color: #b74f44;
+}
+
+/*:nth-child = memilih elemen ke-n dari sebuah parent(elemen pembungkusan), n bisa berarti urutan(1),(2),... atau pola (2n),(3n+2),(4n-1)  genap (even) & ganjil(odd)*/
+
+/*cara penulisan syntaxnya*/
+/*n = kelipatan*/
+li:nth-child(2n) a {
+	color: #ed16d6;
+}
+
+/*li:nth-child(3n-2) a {
+	color: #f92ade;
+}
+ berarti mulai dari kelipatan 3 mundur 2 langkah ke link 1 jadi warna ada di link1-loncat ke link4  atau bisa juga menggunakan (3n+1) -*/
+
+/*ood ganjil()kelipatan ganjil*/
+li:nth-child(odd) a{
+	color: #15b78f;
+}
+
+/*even genap pada saat dihover(mengarahkan kursor)*/
+li:nth-child(even) a:hover{
+	color: #f7fa13;
+}
+
+/*:first-of-type = memilih elemen pertama dari sebuah jenis/tipe tag*/
+p:first-of-type {
+	color: #f31d2c;
+}
+
+/*:last-of-type = memilih elemen terakhir dari sebuah jenis/tipe tag*/
+p:last-of-type {
+	color: #3921f1;
+}

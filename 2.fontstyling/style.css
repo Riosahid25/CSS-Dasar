@@ -1,0 +1,25 @@
+/*font-family mengatur jenis font yang akan digunakan*/
+h1{
+	font-family: arial, verdana, sans-serif;
+	
+/*font-size untuk mengatur ukuran dari font -> px,%,em*/
+	font-size: 50px;
+
+/*font-variant mengubah huruf menjadi untik -> small-caps,normal*/
+font-variant: small-caps;
+
+/* font-style untuk membuat tulisan mejadi italic(garismiring)-> normal,italic,oblique */
+font-style: italic; 
+}
+
+p{
+	font-family: georgia, serif;
+/*font-wight untuk membuat font menjadi bold*/
+font-weight: bold;
+font-style: italic;
+
+/*line-heigt untuk mengatur jarak / paragraf */
+line-height: 50px;
+}
+
+

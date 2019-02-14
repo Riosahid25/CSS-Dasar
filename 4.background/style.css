@@ -1,0 +1,17 @@
+body {
+/*back-color mengatur warna pada background*/
+background-color: #ffffff;
+
+/*back-image mengatur gambar yg akan digunakan pada background*/
+background-image: url(gambar/back2.jpg);
+/*back-repeat mengatur jenis pengulangan gambar pada backgrd*/
+background-repeat: no-repeat;
+
+/*back-position mengatur posisi gambar pada backgrd*/
+background-position: bottom center;
+
+/*cara menyatukan dengan terurut*/
+background: #ffffff url(gambar/back2.jpg) no-repeat center top ; 
+}
+
+
